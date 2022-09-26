@@ -9714,4 +9714,3 @@
     r.sn = {}.toString;
     u.qp()
 })("undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof self ? self : this);
-alert("HackBall 0.0.3");
