@@ -8407,7 +8407,7 @@
             N.Gi(this.c, !1);
             var c = a.Td,
                 d = a.Sd;
-            if (1 == a.ld) this.c.save(), this.c.resetTransform(), this.c.fillStyle = N.lc(a.jd), this.c.fillRect(0, 0, this.sa.width, this.sa.height), this.c.restore(), this.c.strokeStyle = "black", this.c.fillStyle = "#7a9a60", this.Wl(this.c, -c, -d, 2 * c, 2 * d, a.Uc), this.c.save(), this.c.scale(2, 2), this.c.fill(), this.c.restore(), this.c.moveTo(0, -d), this.c.lineTo(0, d), this.c.stroke(), this.c.beginPath(), this.c.arc(0, 0, a.kd,
+            if (1 == a.ld) this.c.save(), this.c.resetTransform(), this.c.fillStyle = N.lc(a.jd), this.c.fillRect(0, 0, this.sa.width, this.sa.height), this.c.restore(), this.c.strokeStyle = "white", this.c.fillStyle = "#7a9a60", this.Wl(this.c, -c, -d, 2 * c, 2 * d, a.Uc), this.c.save(), this.c.scale(2, 2), this.c.fill(), this.c.restore(), this.c.moveTo(0, -d), this.c.lineTo(0, d), this.c.stroke(), this.c.beginPath(), this.c.arc(0, 0, a.kd,
                 0, 2 * Math.PI), this.c.stroke();
             else if (2 == a.ld) {
                 this.c.strokeStyle = "#E9CC6E";
@@ -8462,7 +8462,7 @@
         },
         Ll: function(a, b) {
             this.c.beginPath();
-            null == b ? (this.c.fillStyle = N.lc(a.R), this.c.strokeStyle = "white") : (this.c.fillStyle = b.Ij, this.c.strokeStyle = b.lo);
+            null == b ? (this.c.fillStyle = N.lc(a.R), this.c.strokeStyle = "black") : (this.c.fillStyle = b.Ij, this.c.strokeStyle = b.lo);
             this.c.beginPath();
             this.c.arc(a.a.x, a.a.y, a.Z, 0, 2 * Math.PI, !1);
             if (null != b) {
@@ -9714,4 +9714,4 @@
     r.sn = {}.toString;
     u.qp()
 })("undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof self ? self : this);
-alert('HackBall 0.0.1');
+alert("HackBall 0.0.2");
