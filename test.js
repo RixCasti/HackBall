@@ -8671,7 +8671,7 @@
                 if (!Ea.Ln(this.kb, c) || !e && a.Jb != this.uh || e && this.Jf != d) Ea.ao(this.kb, c), e ? (this.Jf = d, this.uh = -1) : (this.Jf = "" + a.Jb, this.uh =
                     a.Jb), this.Hq(this.Jf)
             }
-            this.lo = 0 < b.K.Oa || !a.Wb ? "gray" : a.Wb && 0 >= a.Sc && 0 <= a.yc ? "white" : "gray";
+            this.lo = 0 < b.K.Oa || !a.Wb ? "black" : a.Wb && 0 >= a.Sc && 0 <= a.yc ? "white" : "black";
             a.w != this.w && (this.w = a.w, this.Or())
         },
         Hq: function(a) {
@@ -9714,4 +9714,4 @@
     r.sn = {}.toString;
     u.qp()
 })("undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof self ? self : this);
-alert("HackBall 0.0.2");
+alert("HackBall 0.0.3");
